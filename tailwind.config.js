@@ -4,10 +4,15 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}', // Added this line for src directory
   ],
   theme: {
     extend: {
       colors: {
+        'umd-red': '#E21833',
+        'umd-gold': '#FFD520',
+        'umd-black': '#000000',
+        'umd-white': '#FFFFFF',
         umd: {
           red: '#E21833',
           gold: '#FFD520',

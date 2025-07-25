@@ -9,23 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "axios": "^1.6.2",
-    "cheerio": "^1.0.0-rc.12",
-    "papaparse": "^5.4.1",
-    "lucide-react": "^0.300.0",
-    "tailwindcss": "^3.3.6",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "cheerio": "^1.0.0-rc.12",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "lucide-react": "^0.525.0",
+    "next": "^15.4.4",
+    "react": "^19.1.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^19.1.0",
     "typescript": "^5"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
   }
 }
