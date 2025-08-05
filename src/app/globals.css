@@ -1,6 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* src/app/globals.css */
+@import "tailwindcss";
+
+/* Define custom colors using CSS custom properties */
+@theme {
+  --color-umd-red: #E21833;
+  --color-umd-gold: #FFD520;
+  --color-umd-black: #000000;
+  --color-umd-white: #FFFFFF;
+  
+  /* Gray scale variations for UMD theme */
+  --color-umd-gray-50: #f9fafb;
+  --color-umd-gray-100: #f3f4f6;
+  --color-umd-gray-200: #e5e7eb;
+  --color-umd-gray-300: #d1d5db;
+  --color-umd-gray-400: #9ca3af;
+  --color-umd-gray-500: #6b7280;
+  --color-umd-gray-600: #4b5563;
+  --color-umd-gray-700: #374151;
+  --color-umd-gray-800: #1f2937;
+  --color-umd-gray-900: #111827;
+}
 
 @layer base {
   html {
